@@ -1,9 +1,9 @@
-package model;
+package com.example.taskmanager.model;
 
 import jakarta.persistence.*;
 
 @Entity
-public class User {
+public class Users {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -19,14 +19,13 @@ public class User {
     private String password;
 
     // This is the default constructor (Which is required by JPA)
-    public User() {}
+    public Users() {}
 
     //This is the constructor for creating new users
-    public User(String username, String email, String password){
+    public Users(String username, String email, String password){
         this.username = username;
         this.email = email;
         this.password = password;
-
     }
 
     //Getters and setters
