@@ -1,13 +1,13 @@
-package com.example.taskmanager;
+package com.example.userauth;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TaskManagerApplication {
+public class UserAuthApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TaskManagerApplication.class, args);
+		SpringApplication.run(UserAuthApplication.class, args);
 	}
 
 }

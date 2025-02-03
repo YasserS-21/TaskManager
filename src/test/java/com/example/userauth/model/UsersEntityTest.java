@@ -1,4 +1,4 @@
-package com.example.taskmanager.model;
+package com.example.userauth.model;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import jakarta.persistence.EntityManager;

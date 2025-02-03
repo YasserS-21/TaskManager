@@ -1,6 +1,6 @@
-package com.example.taskmanager.repository;
+package com.example.userauth.repository;
 
-import com.example.taskmanager.model.Users;
+import com.example.userauth.model.Users;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
